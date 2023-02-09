@@ -21,3 +21,31 @@ img {
     padding: 0px;
     list-style-type: none;
 }
+
+.btn-reset {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0px auto;
+    
+}
+
+.header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.hero {
+    background-image: url("./images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
