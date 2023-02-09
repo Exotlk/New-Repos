@@ -44,6 +44,7 @@ img {
 }
 
 .hero {
+    padding-top: 100px;
     background-image: url("./images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
