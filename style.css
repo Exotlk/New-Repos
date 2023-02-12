@@ -7,8 +7,32 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-MediumItalic.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
-    font-family: '', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
@@ -37,6 +61,7 @@ img {
 }
 
 .header {
+    padding: 24px 0;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -47,6 +72,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 24px;
+    align-items: center;
 }
 
 .burger {
@@ -81,9 +107,45 @@ img {
 }
 
 .hero {
-    padding-top: 100px;
+    padding-top: 189px;
     background-image: url("./images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.hero-subtitle {
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.title {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 74px;
+color: #FFFFFF;
+}
+
+.hero-descr {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.hero-link {
+font-family: 'FontAwesome';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-decoration-line: underline;
+
+color: #FFD723;
 }
