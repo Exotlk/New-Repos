@@ -50,10 +50,34 @@ img {
 }
 
 .burger {
+    --offset: 11px;
+    --ofset-vertical: 14px;
+    position: relative;
+    cursor: pointer;
     border-radius: 100%;
+    padding: var(--ofset-vertical) var(--offset);
     width: 40px;
     height: 40px;
     background-color: #f5f6f7;
+}
+
+.burger-line {
+    position: absolute;
+    top: var(--ofset-vertical);
+    left: 50%;
+    display: inline-block;
+    width: calc(100% - (var(--ofset-vertical) * 1.5));
+    background-color: #000;
+    height: 2px;
+    transform: translateX(-50%);
+}
+
+.burger-line:nth-child(2) {
+    top: calc(var(--ofset-vertical) + 6px);
+}
+
+.burger-line:nth-child(3) {
+    top: calc(var(--ofset-vertical) + 12px);
 }
 
 .hero {
